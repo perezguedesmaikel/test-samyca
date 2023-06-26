@@ -3,11 +3,12 @@ import Head from 'next/head'
 import Image from 'next/image'
 import styles from '../styles/Home.module.css'
 import SessionOne from "../components/SessionOne";
+import Layout from "../components/Layout";
 
 const Home: NextPage = () => {
     return (
         <div>
-            <SessionOne/>
+            index
         </div>
     )
 }
