@@ -2,11 +2,12 @@ import type {NextPage} from 'next'
 import Head from 'next/head'
 import Image from 'next/image'
 import styles from '../styles/Home.module.css'
+import SessionOne from "../components/SessionOne";
 
 const Home: NextPage = () => {
     return (
         <div>
-            <h3>hello world it is a test!!!</h3>
+            <SessionOne/>
         </div>
     )
 }
