@@ -1,6 +1,9 @@
 {
-  "home": {
-    "title": "Bienvenido",
-    "description": "Esta es la página de inicio"
+  "nav": {
+    "start": "Inicio",
+    "services": "Servicios",
+    "us": "Nosotros",
+    "tools": "Herramientas",
+    "partners": "Socios"
   }
 }

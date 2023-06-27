@@ -1,6 +1,15 @@
 {
-  "home": {
-    "title": "Welcome",
-    "description": "This is the home page"
+  "nav": {
+    "start": "Home",
+    "services": "Services",
+    "us": "About Us",
+    "tools": "Tools",
+    "partners": "Partners"
   }
 }
+
+
+
+
+
+
