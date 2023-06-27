@@ -2,11 +2,14 @@ import Link from "next/link";
 import {useRouter} from "next/router";
 import classNames from 'classnames';
 import Image from 'next/image';
+import {useTranslations} from "use-intl";
 
 export default function SessionOne() {
     const router = useRouter();
+    const t = useTranslations('home');
     return (
         <header className="bg-[#001853] h-[722px] pt-[34px] px-[56px]">
+            <h1>{t('title')}</h1>
             <nav className="flex items-center justify-between bg-[#FFFFFF] h-[86px] rounded-[8px] px-10">
                 <ul className="flex w-[80%] px-10">
                     <li className={classNames('flex-grow leading-6 ', {
