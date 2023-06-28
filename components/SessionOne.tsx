@@ -58,7 +58,11 @@ export default function SessionOne() {
             </div>
             <div className='flex fixed top-[665px] left-[20%] w-809 h-658 z-10'>
                 {/*<div className='w-[50%] h-[500px]'>hola!!!</div>*/}
-                <Image src={'/Polygon 1.svg'} alt={'office'} width={165} height={122}/>
+                <Image src={'/Polygon 1.svg'} alt={'triangle'} width={165} height={122}/>
+            </div>
+            <div className='flex fixed top-0 left-0 w-[1608px] h-[722px] z-5'>
+                {/*<div className='w-[50%] h-[500px]'>hola!!!</div>*/}
+                <Image src={'/Group.svg'} alt={'numbers'} width={1608} height={722}/>
             </div>
         </>
     );
