@@ -52,10 +52,13 @@ export default function SessionOne() {
 
 
             </header>
-            <div className='flex fixed top-[120px] right-0 w-809 h-658 z-10'>
+            <div className='flex fixed top-[120px] right-0 z-10'>
                 {/*<div className='w-[50%] h-[500px]'>hola!!!</div>*/}
-                <Image src={'/Group 26 (1) 1.svg'} alt={'office'} width={809} height={658}
-                       style={{position: 'relative', top: '50px', right: 0, zIndex: 999}}/>
+                <Image src={'/Group 26 (1) 1.svg'} alt={'office'} width={809} height={658}/>
+            </div>
+            <div className='flex fixed top-[665px] left-[20%] w-809 h-658 z-10'>
+                {/*<div className='w-[50%] h-[500px]'>hola!!!</div>*/}
+                <Image src={'/Polygon 1.svg'} alt={'office'} width={165} height={122}/>
             </div>
         </>
     );
