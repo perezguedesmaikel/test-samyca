@@ -52,7 +52,7 @@ export default function SessionOne() {
 
 
             </header>
-            <div className='flex fixed top-[120px] right-0 z-10'>
+            <div className='flex fixed top-[170px] right-0 z-10'>
                 {/*<div className='w-[50%] h-[500px]'>hola!!!</div>*/}
                 <Image src={'/Group 26 (1) 1.svg'} alt={'office'} width={809} height={658}/>
             </div>

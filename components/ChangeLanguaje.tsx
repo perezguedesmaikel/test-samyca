@@ -16,7 +16,7 @@ const ChangeLanguage = () => {
     return (
         <Image
             className='cursor-pointer'
-            src={locale === 'es' ? '/Group 28.svg' : "/bandera.svg"}
+            src={locale === 'es' ? '/image 32.svg' : "/bandera.svg"}
             alt="English"
             width={27}
             height={18}
