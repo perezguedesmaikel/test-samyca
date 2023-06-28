@@ -12,7 +12,8 @@ export default function SessionOne() {
         <>
             <header className="bg-[#001853] h-[722px] pt-[34px] px-[56px]">
 
-                <nav className="flex items-center justify-between bg-[#FFFFFF] h-[86px] rounded-[8px] px-10">
+                <nav
+                    className="flex items-center justify-between bg-[#FFFFFF] h-[86px] rounded-[8px] px-10 relative z-10">
                     <ul className="flex w-[80%] px-10">
                         <li className={classNames('flex-grow leading-6 ', {
                             'text-[#2E53A3] font-bold': router.pathname === '/',
@@ -60,7 +61,7 @@ export default function SessionOne() {
                 {/*<div className='w-[50%] h-[500px]'>hola!!!</div>*/}
                 <Image src={'/Polygon 1.svg'} alt={'triangle'} width={165} height={122}/>
             </div>
-            <div className='flex fixed top-0 left-0 w-[1608px] h-[722px] z-5'>
+            <div className='flex fixed top-0 left-0 w-[1608px] h-[722px] z-0 '>
                 {/*<div className='w-[50%] h-[500px]'>hola!!!</div>*/}
                 <Image src={'/Group.svg'} alt={'numbers'} width={1608} height={722}/>
             </div>
